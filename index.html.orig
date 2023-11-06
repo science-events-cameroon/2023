@@ -1,1466 +1,1010 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
-    <meta charset="utf-8">
-    <title>Science Projects Cameroon</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+	<title>WoCC'23</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Bootstrap 5 Tech Conference Template">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+
+</head> 
+
+<body>    
+	<header id="header" class="header fixed-top">	    
+		<div class="branding">
+			<div class="container-fluid">
+				<nav class="main-nav navbar navbar-expand-lg">
+					<!-- <div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>     -->
+					
+					<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSdgmReum6ZyH9iWZ4fbFptYkgeOoa8Nxf8C7NiH8teCMomsvA/viewform?usp=sf_link" target="_blank">Registration</a></div>
+					
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+						<ul class="nav navbar-nav">
+							
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
+							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#editions-section">Editions</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
+						</ul><!--//nav-->
+					</div><!--//navabr-collapse-->
+
+				</nav><!--//main-nav-->
+				
+			</div><!--//container-->
+		</div><!--//branding-->
+	</header><!--//header-->
+	
+	<div id="hero-block" class="hero-block">
+		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item-1 carousel-item">
+				</div>
+				<div class="carousel-item-2 carousel-item active">
+				</div>
+				<div class="carousel-item-3 carousel-item">
+				</div>
+			</div>
+		</div>
+		<div class="hero-block-mask"></div>
+		<div class="container">
+			<div class="hero-text-block">
+				<h2 class="hero-heading mb-2 theme-light" style="color: rgb(231,56,48)">WoCC'23 - Women in Computer Science Cameroon</h2>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>12 - 13 Dec 2023 <i class="fas fa-map-marker-alt mx-2"></i>Yaounde, CAMEROON</div>
+				<div class="hero-meta mb-3">Colocated with Science Events</div>
+				
+			</div><!--//hero-text-block-->
+		</div><!--//container-->
+
+	</div><!--//hero-block-->
+
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<div class="benefits-list text-center mb-3">
+				<ul class="list-unstyled text-start d-inline-block">
+					<h2 class="section-heading mb-3"><li><i class="fas fa-check-circle me-2"></i>WoCC - Women in Computer Science Days Cameroon</h2></li><br>
+					<p>WoCC is a seminar that seeks to show students of Cameroonian universities what women accomplish in CS worldwide. During two days, women researchers from prestigious universities around the world present their work, offer tutorials on computing tools, and give advice during a women in CS workshop. WoCC will be co-located with the CS Week (December 18 to December 22, 2023) organized by some colleagues from France.</p>
+					<h2 class="section-heading mb-3"><li><i class="fas fa-check-circle me-2"></i>Science Events</h2></li><br>
+					<p>TBD.</p>
+				</ul>
+			</div><!--//benefits-list-->
+			<!-- <div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg  mb-5" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Registration</a></div> -->
+		</div><!--//container-->
+
+	</section><!--//about-section-->
+	
+	<section id="speakers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Expected speakers</h3>
+			<div class="row">
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/abena.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Marie-Thérèse Abena Ondoa</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Minister of MINPROFF</div>
+								<div class="meta">Yaounde, Cameroon</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+								<!-- <li class="list-inline-item"><a  href="https://perso.ens-lyon.fr/celestine-stella.ndonga-bitchebe/">Personal Page</a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-2" data-bs-toggle="modal" data-bs-target="#modal-speaker-2"><img src="assets/images/speakers/Likeng.jpeg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Mrs. Libom Li Likeng</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Minister of MINPOSTEL</div>
+								<div class="meta">Yaounde, Cameroon</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-2" data-bs-toggle="modal" data-bs-target="#modal-speaker-2">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="https://nacrooks.github.io/">Personal Page</a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-3" data-bs-toggle="modal" data-bs-target="#modal-speaker-3"><img src="assets/images/speakers/oanab.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Prof Oana Balmau</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Assistant Professor</div>
+								<div class="meta">McGill University, Montreal, Canada</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-3" data-bs-toggle="modal" data-bs-target="#modal-speaker-3">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-4" data-bs-toggle="modal" data-bs-target="#modal-speaker-4"><img src="assets/images/speakers/natacha.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Prof Natacha Crooks</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Assistant Professor</div>
+								<div class="meta">UC Berkeley, California, USA</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-4" data-bs-toggle="modal" data-bs-target="#modal-speaker-4">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-5" data-bs-toggle="modal" data-bs-target="#modal-speaker-5"><img src="assets/images/speakers/katia.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Prof Katia Jaffres-Runser</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Full Professor</div>
+								<div class="meta">Toulouse INP, Toulouse, France</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-5" data-bs-toggle="modal" data-bs-target="#modal-speaker-5">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-10" data-bs-toggle="modal" data-bs-target="#modal-speaker-10"><img src="assets/images/speakers/stella.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Dr. Stella Bitchebe</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Postdoctoral Scholar</div>
+								<div class="meta">McGill University, Canada</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-10" data-bs-toggle="modal" data-bs-target="#modal-speaker-10">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-6" data-bs-toggle="modal" data-bs-target="#modal-speaker-6"><img src="assets/images/speakers/aline.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Dr. Aline Carneiro</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Research Director</div>
+								<div class="meta">INRIA, Paris, France</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-6" data-bs-toggle="modal" data-bs-target="#modal-speaker-6">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-7" data-bs-toggle="modal" data-bs-target="#modal-speaker-7"><img src="assets/images/speakers/Mokhtar.jpeg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Dr. Sonia Ben Mokhtar</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Research Director</div>
+								<div class="meta">CNRS, Lyon, France</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-7" data-bs-toggle="modal" data-bs-target="#modal-speaker-7">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-8" data-bs-toggle="modal" data-bs-target="#modal-speaker-8"><img src="assets/images/speakers/gabrielle.jpeg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Dr. Gabrielle De Michelli</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Postdoctoral Scholar</div>
+								<div class="meta">UC San Diego, California, USA</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-8" data-bs-toggle="modal" data-bs-target="#modal-speaker-8">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-9" data-bs-toggle="modal" data-bs-target="#modal-speaker-9"><img src="assets/images/speakers/chana.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Dr Anne-Marie Chana</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Lecturer</div>
+								<div class="meta">Polytechnic School, Yaounde, Cameroon</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-9" data-bs-toggle="modal" data-bs-target="#modal-speaker-9">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-11" data-bs-toggle="modal" data-bs-target="#modal-speaker-11"><img src="assets/images/speakers/carole.jpg" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Carole Djeumo</h5>
+							<div class="card-text mb-3">
+								<div class="meta">PhD Student</div>
+								<div class="meta">UCLouvain, Louvain-La-Neuve, Belgium</div>
+							</div><!--//card-text-->
+							<a href="#modal-speaker-11" data-bs-toggle="modal" data-bs-target="#modal-speaker-11">Read more &rarr;</a>
+						</div><!--//card-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<!-- <li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li> -->
+							</ul><!--//social-list-->
+						</div>
+					</div><!--//card-->
+				</div><!--//col-->
+				
+			</div><!--//row-->
+			<!-- <div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a></div> -->
+		</div><!--//container-->
+
+		<div class="container">
+			<br>
+		</div>
+
+		<div class="container">
+			<div class="benefits-list text-center mb-3">
+				<h4 class="countdown-intro text-center mb-3">Student volunteers</h4>
+				<ul class="list-unstyled text-start d-inline-block">
+					<li><i class="fas fa-check-circle me-2"></i>&nbsp;Carole Djeumo - PhD Student, Belgium</li><br>
+					<li><i class="fas fa-check-circle me-2"></i>&nbsp;Papa Assane - PhD Student, France</li><br>
+				</ul>
+			</div><!--//benefits-list-->
+		</div>
+	</section><!--//speakers-section-->
+	
+	<div class="container">
+		<hr>
+	</div>
+	
+	<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			
+			<!-- Nav tabs -->
+			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+				<li class="nav-item me-2">
+					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
+						<span class="heading">Day 1</span>
+						<span class="meta">(Tue 12, Dec)</span>
+					</a>
+				</li>
+				<li class="nav-item me-2">
+					<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
+						<span class="heading">Day 2</span>
+						<span class="meta">(Wed 13, Dec)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
+						<span class="heading">Day 3</span>
+						<span class="meta">(Thu 14, Dec)</span>
+					</a>
+				</li>
+			</ul>
+			
+			<!-- Tab panes -->
+			<div class="schedule-tab-content tab-content">
+				<!-- <div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">9:00 - 9:30</h4>
+							<div class="profile">
+								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-1.jpg" alt=""></a>
+								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">James Doe</a></div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Best Practices And Tips For A Clean Angular Application</h3>
+							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
+							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
+						</div>
+					</div>
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">9:30 - 10:00</h4>
+							<div class="profile">
+								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-2.jpg" alt=""></a>
+								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Sarah Doe</a></div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Developer Productivity</h3>
+							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
+							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
+						</div>
+					</div>
+					<div class="item item-other">
+						<div class="meta">
+							<h4 class="time mb-3">10:00 - 10:30</h4>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Coffee Break</h3>
+							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Room A5</div>
+							<div class="desc">Coffee and cakes lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+						</div>
+					</div>
+					
+				</div> -->
+				<!--//tab-1-content-->
+				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-2">
+					<h4 class="text-center py-5 text-muted">Day 1 Agenda Coming Soon...</h4>
+				</div><!--//tab-2-content-->
+				<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
+					<h4 class="text-center py-5 text-muted">Day 2 Agenda Coming Soon...</h4>
+				</div><!--//tab-2-content-->
+				<div class="tab-pane no-timeline" id="tab-3-content" role="tabpanel" aria-labelledby="tab-3">
+					<h4 class="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
+				</div><!--//tab-3-content-->
+			</div><!--//schedule-tab-content-->
+			<!-- <div class="schedule-cta text-center mx-auto"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Download Schedule</a></div> -->
+		</div><!--//container-->
+	</section><!--//schedule-section-->
+	
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<div class="event-countdown text-center mb-3">
+				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
+				<div id="countdown-box" class="countdown-box"></br></div>
+			</div><!--//event-countdown-->
+		</div>
+	</section>
+
+	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
+			<div class="row gx-5 py-lg-5">
+				<div class="col-12 col-lg-7 h-100">
+					<div class="desc">
+						<h4 class="text-white mb-3">How to get here</h4>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15923.023914909794!2d11.489696217382813!3d3.86245580000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcfa23aace247%3A0xe07671abb10169f9!2s%C3%89cole%20Nationale%20Sup%C3%A9rieure%20de%20Yaound%C3%A9!5e0!3m2!1sfr!2sbe!4v1687701111253!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
+						<div class="row pt-3">
+							<div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-plane-departure me-2"></i>By Plane</h5>
+									<p>You have to get off at <b>Nsimalen Airport, Yaounde, CAMEROON. Then you should take a car.</b> </p>
+									<!-- <a class="text-white" href="#">Search Tickets &rarr;</a> -->
+								</div><!--//grid-item-->
+							</div><!--col-->
+							<div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-car me-2"></i>By Car</h5>
+									<p>You must reach EMIA Pharmacy at Melen</p>
+									<!-- <a class="text-white" href="#">Check Route &rarr;</a> -->
+								</div><!--//grid-item-->
+							</div><!--col-->
+							<!-- <div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-bus-alt me-2"></i>By Bus</h5>
+									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci. </p>
+									<a class="text-white" href="#">Book Tickets &rarr;</a>
+								</div>
+							</div>col -->
+							<!-- <div class="col-12 col-md-6 mb-4">
+								<div class="grid-item p-4">
+									<h5 class="text-white mb-3 title"><i class="fas fa-subway me-2"></i>By Train</h5>
+									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.</p>
+									<a class="text-white" href="#">Book Tickets &rarr;</a>
+								</div>
+							 </div> -->
+							
+						</div><!--//row-->
+						
+					</div><!--//desc-->
+				</div><!--//col-->
+				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
+					<div class="figures-holder">
+						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue1.png" alt=""></div>
+						<div class="figure figure-2"><img class="shadow" src="assets/images/venue/venue2.jpg" alt=""></div>
+						<div class="figure figure-3"><img class="shadow" src="assets/images/venue/venue3.png" alt=""></div>
+						<div class="figure figure-4"><img class="shadow" src="assets/images/venue/venue4.jpg" alt=""></div>
+					</div><!--//figures-holder-->
+				</div><!--//col-->
+			</div>
+				
+				<!-- <a class="btn btn-ghost" href="#">Search Hotels</a> -->
+				<div>
+					<h4 class="text-white mb-4 mt-3 mt-lg-5">Facilities &amp; accommodations</h4>
+					<h5>Here are some nearby hotels</h5>
+					<div class="row">
+						<figure style="width: 600px; height: 600px; float: right; margin: 0.1em; padding: 0.5em; text-align: center; border-radius: 4em; border-color: white; border-style: solid; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium;">
+							<a target="_blank" href="https://goo.gl/maps/m7oM8uBMyyvLf87N8"><img src="assets/images/hotels/heaven.jpg" width="500" height="500" alt="New Heaven Hotel" /></a>
+							<figcaption>New Heaven Hotel</figcaption>
+						</figure>
+						<figure style="width: 600px; height: 600px; float: right; margin: 0.1em; padding: 0.5em; text-align: center; border-radius: 4em; border-color: white; border-style: solid; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium;">
+							<a target="_blank" href="https://goo.gl/maps/sb7UJTF9eVXZVp919"><img src="assets/images/hotels/deputes.jpeg" width="500" height="500" alt="New Heaven Hotel" /></a>
+							<figcaption>Hotel des Députés</figcaption>
+						</figure>
+						<figure style="width: 600px; height: 600px; float: right; margin: 0.1em; padding: 0.5em; text-align: center; border-radius: 4em; border-color: white; border-style: solid; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium;">
+							<a target="_blank" href="https://goo.gl/maps/VpANjEjqthzZ3BEXA"><img src="assets/images/hotels/sinaha.jpg" width="500" height="500" alt="New Heaven Hotel" /></a>
+							<figcaption>SINAHA Hotel</figcaption>
+						</figure>
+						<figure style="width: 600px; height: 600px; float: right; margin: 0.1em; padding: 0.5em; text-align: center; border-radius: 4em; border-color: white; border-style: solid; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: medium;">
+							<a target="_blank" href="https://goo.gl/maps/2rCwTigNhX1oVj3R9"><img src="assets/images/hotels/gfac.jpg" width="500" height="500" alt="New Heaven Hotel" /></a>
+							<figcaption>GFAC Hotel</figcaption>
+						</figure>
+					</div><!--//row-->
+				</div>
+				
+		</div><!--//container-->
+	</section><!--//venue-section-->
+
+	<section id="sponsors-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">Thanks to our sponsors!</div>
+			<div class="row logos justify-content-center">
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/unine.jpg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/inria.jpg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/cnrs.jpg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/mlns2.jpg" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/mcgill-logo.jpg" alt=""></div>
+			</div><!--//row-->
+		</div><!--//container-->
+	</section><!--//sponsors-section-->
+
+	<section id="editions-section" class="speakers-section section">
+		<div class="container">
+			<div class="media-block theme-bg-primary py-5">
+				<div class="container">
+					<h4 class="text-white text-center mb-3">Last Edition</h4>
+					<div class="row gx-md-5">
+						<div class="col-12 col-md-6 mb-3">
+							<div class="ratio ratio-16x9">
+
+								<iframe src="https://www.youtube.com/embed/stjniziaxy4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div><!--//embed-responsive -->
+						</div><!--//col-->
+						<div class="col-12 col-md-4 p-2 p-lg-4">
+							<div class="card card-special rounded-0 border-0">
+								<div class="card-body">
+									<h4 class="card-title mb-2 text-center">WoCC'22</h4>
+									<div class="card-text mb-3">
+										<div class="meta">
+											This edition took place at Ecole Polytechnique - Université de Yaoundé I. It was on 20-22 December in CAMEROON.
+										</div>
+									</div><!--//info-->
+								</div>
+								<div class="card-footer text-center">
+									<a href="https://scienceprojectscmr.github.io/" class="btn btn-primary">Check</a>
+								</div>
+							</div><!--//card-->
+						</div><!--//col-->
+					</div><!--//row-->
+				</div><!--//container-->
+			</div><!--//media-block-->
+		</div><!--//container-->
+	</section>
+
+	<footer class="footer py-5 theme-bg-primary">
+		<div class="container text-center">
+			
+			<ul class="social-list list-inline mb-4"> 
+				<li class="list-inline-item me-3"><a href="mailto:stella.bitchebe@mcgill.ca"><i class="fas fa-envelope"></i></a></li>
+				<li class="list-inline-item me-0"><a href="https://www.linkedin.com/posts/stella-bitchebe_womeninscience-research-researcher-activity-7014896214512934912-VZm7?utm_source=share&utm_medium=member_desktop
+"><i class="fab fa-linkedin fa-fw"></i></a></li>
+			</ul><!--//social-list-->
+			
+			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			<small class="copyright">Designed with <i class="fas fa-heart" style="color: #EC645E;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			
+		</div><!--//container-->	    
+	</footer>
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-1" tabindex="-1" role="dialog" aria-labelledby="speaker-1-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Marie-Thérèse Abena Ondoa</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/abena.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Marie-Thérèse Abena Ondoa</h2>
+								<div class="meta">Minister of MINPROFF</div>
+								<div class="meta mb-2">Yaounde, Cameroon</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Marie-Thérèse Abena Ondoa is a pediatrician, professor and Cameroonian politician. 
+							She was appointed Minister for the Promotion of Women and the Family in 2009.
+						</p>
+						<p class="mb-0">Before becoming a minister, she worked in universities and hospitals. Particularly, she is:
+
+							<ul>
+								<li>Professor at the Faculty of Medicine of the University of Yaoundé I;</li>
+								<li>Vice-Dean of this faculty, in charge of research and cooperation;</li>
+								<li>Head of the Pediatrics Department of the University Hospital Center (CHU) of Yaoundé.</li>
+							</ul>
+							Appointed director of the Yaoundé central hospital on March 17, 2009, she became the first Cameroonian woman to hold this position.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-2" tabindex="-1" role="dialog" aria-labelledby="speaker-2-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Mrs. Libom Li Likeng</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/Likeng.jpeg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Mrs. Libom Li Likeng</h2>
+								<div class="meta">Minister of MINPOSTEL</div>
+								<div class="meta mb-2">Yaounde, Cameroon</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Minette Libom Li Likeng is a Cameroonian politician. She has held the position of Minister of Posts and 
+							Telecommunications since October 2, 2015.</p>
+						<p class="mb-0">She received three distinctions in Cameroon from the program set up by the United Nations entitled 
+							Millennium Development Goals (MDGs).</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-3" tabindex="-1" role="dialog" aria-labelledby="speaker-3-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Prof Oana Balmau</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/oanab.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Prof Oana Balmau</h2>
+								<div class="meta">Assistant Professor</div>
+								<div class="meta mb-2">McGill University, Montreal, Canada</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>I am an Assistant Professor in the School of Computer Science at McGill University, where I lead the Data-Intensive Storage 
+							and Computer Systems Laboratory (DISCS Lab). My current focus is on storage and persistent memory technologies, with an 
+							emphasis on the way we manage large-scale data for machine learning, data science and edge computing workloads. I also 
+							hold a status-only appointment at the University of Toronto.</p>
+						<p class="mb-0">I completed my PhD in Computer Science at the University of Sydney in 2020, advised by Prof. 
+							Willy Zwaenepoel. My dissertation research was on the design and implementation of efficient key-value 
+							stores for future  hardware and performance requirements. My PhD was generously supported by The
+							University of Sydney Faculty of Engineering and IT Dean's Postgraduate Research Scholarship and by the 
+							EPFL Fellowship for Doctoral Studies. I have earned my Bachelors and Masters degrees in Computer Science
+							 from EPFL. 
+
+						</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-4" tabindex="-1" role="dialog" aria-labelledby="speaker-4-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Prof Natacha Crooks</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/natacha.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Prof Natacha Crooks</h2>
+								<div class="meta">Assistant Professor</div>
+								<div class="meta mb-2">UC Berkeley, California, USA</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>I am an Assistant Professor at UC Berkeley in the Department of Electrical Engineering and Computer Science (EECS). 
+							I work at the intersection of distributed systems, databases and security. I am a founding member of the SkyLab, a member
+							 of the Data Systems and Foundations Group as well as the Berkeley Center for Decentralized Intelligence.</p>
+						<p class="mb-0">
+							On the industrial side, I was a Scientific Advisor at Improbable on their metaverse project and a Strategic Advisor 
+							at Astronomer. Previously, I worked at Materialize, a new streaming SQL materialized view engine, where I remain 
+							a technical advisor.
+						</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-5" tabindex="-1" role="dialog" aria-labelledby="speaker-5-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Prof Katia Jaffres-Runser
+</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/katia.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Prof Katia Jaffres-Runser
+								</h2>
+								<div class="meta">Full Professor</div>
+								<div class="meta mb-2">Toulouse INP, Toulouse, France</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p><strong>RESEARCH INTERESTS</strong><br>
+							<ul>
+								<li>Performance evaluation and optimization of networks : wireless networks (IoT & wireless sensor networks),
+									 embedded networks and systems.</li>
+								<li>Complex networks analysis : Google Matrix analysis of networks.</li>
+							</ul> 
+						</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-6" tabindex="-1" role="dialog" aria-labelledby="speaker-6-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Dr. Aline Carneiro</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/aline.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Dr. Aline Carneiro</h2>
+								<div class="meta">Research Director</div>
+								<div class="meta mb-2">INRIA, Paris, France</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>I am a Research Director (DR) at Inria and head of the TRiBE research team (previous INFINE team). My career at Inria 
+							started in 2006 after my PhD degree in Computer Science from the Université Pierre et Marie Curie (UPMC – Sorbonne 
+							Universités), at the NPA/LIP6 research team. I got then my HDR (Habilitation à Diriger les Recherches) degree from 
+							the same University in 2011. From 2009 to 2011, I had an excellent professional experience as a visiting researcher
+							 at the TKN research team from Technische Universität Berlin (TU-Berlin).  </p>
+						<p class="mb-0">My research adventure started in Brazil and had its continuation in France and Germany. 
+							I am currently living and working in Paris region.
+						</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-7" tabindex="-1" role="dialog" aria-labelledby="speaker-7-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Dr. Sonia Ben Mokhtar</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/Mokhtar.jpeg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Dr. Sonia Ben Mokhtar</h2>
+								<div class="meta">Research Director</div>
+								<div class="meta mb-2">CNRS, Lyon, France</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>I have been a CNRS researcher at the LIRIS lab since October 2009. Since 2017, I am also the leader of 
+							the distributed systems and information retrieval group (DRIM). Before joining CNRS, I was a research 
+							associate at University College London (UCL) for two years, working with Licia Capra.
+						</p>
+						<p class="mb-0">I received my PhD in 2007 from University Pierre et Marie Curie (Paris 6), which I did 
+							under the supervision of Valérie Issarny and Nikolaos Georgantas in the former INRIA ARLES project-team
+							 (currently MiMove).</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-8" tabindex="-1" role="dialog" aria-labelledby="speaker-8-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Dr. Gabrielle De Michelli</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/gabrielle.jpeg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Dr. Gabrielle De Michelli</h2>
+								<div class="meta">Postdoctoral Scholar</div>
+								<div class="meta mb-2">UC San Diego, California, USA
+								</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>I am a postdoctoral scholar at the University of California, San Diego, working with Daniele Micciancio.</p>
+						<p class="mb-0">Currently, I am focusing on the mathematical aspects of applied cryptography. My work lies at the 
+							intersection of Mathematics and Cryptography, with particular research interests for discrete logarithm computations
+							 in finite fields, lattice-based cryptography and computational number theory. I am interested in both attacks 
+							 and defenses with a particular interest in using mathematical techniques for obtaining a better understanding 
+							 of the security properties of commonly used cryptographic primitives in real-world applications.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-9" tabindex="-1" role="dialog" aria-labelledby="speaker-9-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Dr Anne-Marie Chana
+</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/chana.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Dr Anne-Marie Chana
+								</h2>
+								<div class="meta">Senior Lecturer</div>
+								<div class="meta mb-2">Polytechnic School, Yaounde, Cameroon</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p> 
+							<ul>
+								<li>Lecturer University of Yaoundé I,</li>
+								<li>Head of Training Department
+									Remotely at the National Polytechnic School of Yaoundé,</li>
+								<li>Unit Coordinator
+									of Educational Engineering and Continuing Education CUTI/University of Yaoundé I,</li>
+								<li>Member of the college
+									scientific and pedagogical of the Institut de la Francophonie for knowledge engineering and
+									distance learning (IFIC),</li>
+								<li>Member of the ENSPY MOOC teaching team,</li>
+								<li>Member of
+									the team of CertNum-Sup trainers (Certificate of training for teachers of Higher
+									Digital Use)</li>
+							</ul>
+							</p>
+						<p class="mb-0"></p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-10" tabindex="-1" role="dialog" aria-labelledby="speaker-10-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Stella Bitchebe</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/stella.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Stella Bitchebe</h2>
+								<div class="meta">PostDoctoral Scholar</div>
+								<div class="meta mb-2">McGill University, Canada</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>Stella Bitchebe is a fourth year PhD student at Universite Côte d'Azur/ENS Lyon, France. Her research focuses on Operating Systems and Hardware Virtualization.
+
+							She received a Computer Engineering diploma from the National Advanced School of Engineering, Cameroon, in 2018. </p>
+						<p class="mb-0">Stella has received multiple awards for her research work, like the 2021 UNESCO-L'Oréal For Women In Science (FWIS) and 2021 Microsoft Research Fellowship (10 laureates in Europe), among others.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-11" tabindex="-1" role="dialog" aria-labelledby="speaker-11-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Carole Djeumo</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/carole.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Carole Djeumo</h2>
+								<div class="meta">PhD Student</div>
+								<div class="meta mb-2">UCLouvain, Louvain-La-Neuve, Belgium</div>
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p> I am a PhD student at UCLouvain in Belgium. I am part of ICTEAM Group. In 2022 i graduated my computer science engineer degree in Gabon,Libreville at IAI (African Institute of computer science).
+
+							I am particularly interested in fields like Cloud, virtual machines, web applications.</p>
+						<p class="mb-0">My PhD topic is about the edge cloud spectrum. We work especially on adaptation of microservices applications in order to benefit from advantages of edge.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+	
+	<!-- Javascript -->          
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="assets/plugins/smoothscroll.min.js"></script>
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+	<script src="assets/js/main.js"></script>  
 
-    <!-- Favicons -->
-    <link href="img/science-girl.png" rel="icon">
-    <link href="img/science-girl.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/venobox/venobox.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-    Theme Name: TheEvent
-    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-</head>
-
-<body>
-
-    <!--==========================
-    Header
-  ============================-->
-    <header id="header">
-        <div class="container">
-
-            <div id="logo" class="pull-left">
-                <!-- Uncomment below if you prefer to use a text logo -->
-                <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-                <a href="#intro" class="scrollto"><img src="img/science.gif" height="400" alt="" title=""></a>
-            </div>
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#venue">Venue</a></li>
-                    <li><a href="#hotels">Hotels</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="buy-tickets"><a href="#buy-tickets">Register</a></li>
-                </ul>
-            </nav>
-            <!-- #nav-menu-container -->
-        </div>
-    </header>
-    <!-- #header -->
-
-    <!--==========================
-    Intro Section
-  ============================-->
-    <section id="intro">
-        <div class="intro-container wow fadeIn">
-            <h1 class="mb-4 pb-0"><span>Science</span> Events Cameroon</h1>
-            <p class="mb-4 pb-0">20-22 December, École Polytechnique - Université de Yaoundé I</p>
-            <a href="https://www.youtube.com/watch?v=gVWMdk5HRLE&t=1s" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-            <a href="#about" class="about-btn scrollto">About The Events</a>
-        </div>
-    </section>
-
-    <main id="main">
-
-        <!--==========================
-      About Section
-    ============================-->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2>About Science Events Cameroon</h2>
-                        <p>It is an initiative to promote scientific learning in Cameroon through presentations and free workshops.</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <h3>Where</h3>
-                        <p>École Polytechnique - Université de Yaoundé I</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <h3>When</h3>
-                        <p>Tuesday to Thursday<br>20-22 December</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-        <!--==========================
-      Organizers Section
-    ============================-->
-
-        <section id="organizers" class="wow fadeInUp" style="margin: 50px;">
-            <div class="container">
-                <div class="section-header">
-
-                    <h2>Event Organizers</h2>
-
-                </div>
-
-                <div class="div" style="margin-bottom: 30px;">
-                    Science Events Cameroon is a joint initiative by PhD Students and Computer Engineers from Cameroon to promote learning in Science, Technology, and Engineering.
-                </div>
-                <div class="center-screen">
-                    <div class="" style="margin-bottom: 20px;">
-                        <h3>1. STEM Bootcamp</h3>
-                        This event aims to inspire young students (13-16 year olds) to opt for STEM vocations through hands-on projects, with a special focus on computer programming and robotics. It is co-organized by <a href="default.html">Rahimatou Daouda</a>                        and <a href="peterson.html">Peterson Yuhala</a>.
-                    </div>
-
-                    <div class="" style="margin-bottom: 20px;">
-                        <h3>2. Computer Science Workshops and Women in CS session</h3>
-                        This event promotes computer science education in Cameroon via presentations and workshops, and features sessions to promote women in computer science. It is done within the framework of the
-                        <a href="https://team.inria.fr/mlns2/">Machine Learning, Network, System and Security (MLNS2)</a> project by Inria and CNRS, and is co-organized by
-                        <a href="stella.html">Stella Bitchebe</a>, <a href="josiane.html">Josiane Kouam</a>, <a href="jordan.html">Jordan Gounou</a>, and <a href="nel.html">Nel Nanvou</a>. Student volunteers: 
-                    </div>
-
-                    <div class="" style="margin-bottom: 20px;">
-                        <h3>Student volunteers</h3>
-                        1. Charnelle Yanhamo: M2 student, UY1<br>
-                        2. Derrick Kouadje: L2 student, UY1<br>
-                        3. Audrey Ntsamo: PhD candidate, UY1<br>
-                        4. Donel Wamba: student, ENSP Yaoundé<br>
-                        5. Jordan Gounou: PhD candidate, UY1<br>
-                        6. Roland Ndong'ho: M2 student, ENSP Yaoundé<br>
-                        7. Odetta Tswisse: M2 student, ENSP Yaoundé<br>
-                        8. Rosane Azafack: M2 student, ENSP Yaoundé<br>
-                        9. Ines Ndjana: M2 student, ENSP Yaoundé<br>
-                        10. Karlin Tchoumi: student, ENSP Yaoundé<br>
-                        11. Luc Mahop Ngos: student, ENSP Yaoundé<br>
-                        12. Kilian Kemgne: student, ENSP Yaoundé<br>
-                        13. Marius Djocgoué: student, ENSP Yaoundé<br>
-                        14. Nassair Foupouagnigni: student, ENSP Yaoundé<br>
-                        15. Alfred Yepnjio: student, ENSP Yaoundé<br>
-                        16. Christian Teubou: student, ENSP Yaoundé<br>
-                        17. Dimitri Tapamo: student, ENSP Yaoundé<br>
-                    </div>
-
-
-                </div>
-
-            </div>
-        </section>
-
-        <!--==========================
-      Speakers Section
-    ============================-->
-        <section id="speakers" class="wow fadeInUp">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Event Speakers</h2>
-                    <p>Here are some of our speakers</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/rahi.jpg" alt="Speaker 1" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.linkedin.com/in/rahimatou-daouda/">Rahimatou Daouda</a></h3>
-                                <p>Software Engineer, COTCO</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/stella.jpg" alt="Speaker 2" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="stella.html">Stella Bitchebe</a></h3>
-                                <p>PhD Candidate, Universite Côte d'Azur/ENS Lyon</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/josiane.jpg" alt="Speaker 3" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="josiane.html">Josiane Kouam</a></h3>
-                                <p>PhD Candidate, Ecole Polytechnique France</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/peterson.jpg" alt="Speaker 4" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="peterson.html">Peterson Yuhala</a></h3>
-                                <p>PhD Candidate, UniNE</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/batana.jpg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.linkedin.com/in/benedicte-batana-a9a44b14b/">Bénédicte Batana</a></h3>
-                                <p>Field Engineer, Schlumberger</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/fotsa.jpg" alt="Speaker 6" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.linkedin.com/in/boris-fotsa/">Boris Fotsa</a></h3>
-                                <p>Software Engineer, DBS SA</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/mariechana.jpeg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.linkedin.com/in/anne-marie-chana-7b642713/">Anne-Marie Chana</a></h3>
-                                <p>Senior Lecturer, ENSP-UYI</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/aline.png" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://pages.saclay.inria.fr/aline.viana/">Aline Carneiro Viana</a></h3>
-                                <p>Research Director at INRIA, France</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/katia.jpg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.irit.fr/~Katia.Jaffres/">Katia Jaffres-Runser</a></h3>
-                                <p>Full Professor, Toulouse INP ENSEEIHT</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/natacha.jpg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://nacrooks.github.io/">Natacha Crooks</a></h3>
-                                <p>Assistant Professor, UC Berkeley</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/gabrielle.jpg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href=" https://gmicheli.github.io/">Gabrielle de Michelli</a></h3>
-                                <p>Postdoctoral Scholar, UC San Diego</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/nel.png" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="nel.html">Nel Nanvou</a></h3>
-                                <p>PhD Candidate, University of Yaoundé I</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/jordan.jpg" alt="Speaker 6" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="jordan.html">Jordan Gounou</a></h3>
-                                <p>PhD Candidate, University of Yaoundé I</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="speaker">
-                            <img src="img/speakers/gaelle.jpg" alt="Speaker 5" class="img-fluid">
-                            <div class="details">
-                                <h3><a href="https://www.linkedin.com/in/gaelle-manuela-yonga-019399196/">Gaëlle Yonga</a></h3>
-                                <p>Master's Student, University of Douala</p>
-                                <div class="social">
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </section>
-
-        <!--==========================
-      Schedule Section
-    ============================-->
-        <section id="schedule" class="section-with-bg">
-            <<div class="container wow fadeInUp">
-                <div class="section-header">
-                    <h2>Event Schedule</h2>
-                    <p>Here is our event schedule. </p>
-                </div>
-
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#wday-1" role="tab" data-toggle="tab">W-day 1: Dec 20</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sday-1" role="tab" data-toggle="tab">S-day 1: Dec 21</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sday-2" role="tab" data-toggle="tab">S-day 2: Dec 22</a>
-                    </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link" href="#sday-3" role="tab" data-toggle="tab">S-day 3</a>
-                    </li>-->
-                </ul>
-
-                <h3 class="sub-heading">All event days for the STEM bootcamp are prefixed with <strong>S-</strong>, and all event days for science presentations and women in computer science sessions are prefixed with <strong>W-</strong>.</h3>
-
-                <div class="tab-content row justify-content-center">
-
-                    <!-- Schdule Day 1 -->
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="wday-1">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>8:30 - 9:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Welcome</h4>
-                                <p>Welcome attendees</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>9:00 - 9:30</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/josiane.png" alt="Brenden Legros">
-                                </div>
-                                <h4>On the intricacies of generating individuals' cellular network datasets
-                                    <span>Josiane Kouam: PhD Candidate, Ecole Polytechnique France</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>9:30 - 9:40</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>9:40 - 10:10</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/gaelle.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Simulation d'une mobilité humaine réaliste: cas de la ville de Douala
-                                    <span>Gaëlle Yonga: Master's Student, University of Douala</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:10 - 10:20</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:20 - 10:50</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/stella.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Out of Hypervisor (OoH): Efficient Buffer Overflow Mitigation in Userspace Using Intel EPT-based Sub-Page Write Protection Support
-                                    <span>Stella Bitchebe: PhD Candidate, ENS Lyon</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:50 - 11:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 - 11:30</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/nel.png" alt="">
-                                </div>
-                                <h4>Operating system support for the execution of auxiliary tasks<span><br> Nel Tsopgny : PhD Candidate, University of Yaoundé I</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:30 - 11:40</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:40 - 12:20</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/jordan.jpg" alt="">
-                                </div>
-                                <h4>Comment créer un benchmark pour le service de gestion de notifications sous android?<span><br>Jordan Ngounou: PhD Candidate, University of Yaoundé I</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:20 - 13:20</time></div>
-                            <div class="col-md-10">
-                                <h4>Lunch break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:20 - 14:10</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/aline.jpg" alt="">
-                                </div>
-                                <h4>Keynote - Habits in behaviors: human beauty and vulnerability<span><br>Aline Carneiro: Research Director at INRIA, France</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:10 - 14:20</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:20 - 16:20</time></div>
-                            <div class="col-md-10">
-                                <!--<div class="speaker">
-                                    <img src="img/white.jpg" alt="Brenden Legros">
-                                </div>-->
-                                <h4>Tutorials<span>  </span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>16:20 - 16:30</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>16:30 - 18:30</time></div>
-                            <div class="col-md-10">
-                                <!--<div class="speaker">
-                                    <img src="img/white.jpg" alt="Brenden Legros">
-                                </div>-->
-                                <h4>Women in CS session
-                                    <span>  
-                                                                     
-                                    <ul>   
-                                    Panel:                                  
-                                    <li>Dr Anne-Marie Chana: Senior Lecturer at Ecole Polytechnique Yaoundé</li>
-                                    <li>Dr Aline Carneiro: Research Director at INRIA</li>
-                                    <li>Pr Katia Jaffres-Runser: Full Professor at IRIT, Toulouse INP ENSEEIHT</li>
-                                    <li>Dr Natacha Crooks: Assistant Professor at UC Berkeley</li>
-                                    <li>Dr Gabrielle de Michelli: Postdoctoral Scholar at UC San Diego</li>
-                                    <!--<li>Hasnaa Ouadoudi: PhD Candidate at IRISA</li>-->
-                                    <li>Josiane Kouam: PhD Candidate at INRIA/Ecole Polytechnique, France</li>
-                                    <li>Stella Bitchebe: PhD Candidate at Universite Côte d'Azur/ENS Lyon</li>
-                                    </ul> </span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- End Schdule Day 1 -->
-
-                    <!-- STEM Day 1 -->
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade" id="sday-1">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>09:30 - 10:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Registration</h4>
-                                <p>Registration and distribution of attendee badges.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 - 10:15</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/peterson.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Welcome message<span> Brief welcome message from the organizers.</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:15 - 10:45</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/rahi.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>STEM presentation<span><br> Rahimatou Daouda </span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:45 - 11:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Short break</h4>
-                            </div>
-                        </div>
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 - 11:25</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/peterson.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Arduino Presentation <span><br> Peterson Yuhala</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:30 - 11:55</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/peterson.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Project allocations <span><br>Peterson Yuhala</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 - 13:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Lunch break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:00 - 14:30</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/prez.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group work on Arduino projects <span><br>Organizers + Club GI</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:30</time></div>
-                            <div class="col-md-10">
-                                <h4>End of day 1 activities</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End STEM Day 1 -->
-
-                    <!-- Schdule STEM Day 2 -->
-                    <!--<div role="tabpanel" class="col-lg-9  tab-pane fade" id="sday-2">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 - 12:00</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/prez.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group work on Arduino projects <span><br> Organizers + Club GI</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 - 13:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Lunch break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:00 - 14:30</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/prez.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group work on Arduino projects <span><br> Organizers + Club GI</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:30</time></div>
-                            <div class="col-md-10">
-                                <h4>End of day 2 activities</h4>
-                            </div>
-                        </div>
-                    </div>-->
-                    <!-- End STEM Day 2 -->
-
-                    <!-- Schdule STEM Day 3 -->
-                    <div role="tabpanel" class="col-lg-9  tab-pane fade" id="sday-2">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 - 10:25</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/batana.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Guest Talk <span><br>Bénédicte Batana</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:30 - 10:55</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/speakers/fotsa.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Guest Talk <span><br> Boris Fotsa</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 - 12:00</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/prez.jpg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group work on project presentations <span><br>Organizers + Club GI + Attendees</span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 - 13:00</time></div>
-                            <div class="col-md-10">
-                                <h4>Lunch break</h4>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:00 - 13:20</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/gas_leak.jpeg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group 1 prez: gas leak detection <span></span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:20 - 13:40</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/home_auto.jpeg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group 2 prez: home automation <span></span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>13:40 - 14:00</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/weather.jpeg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group 3 prez: weather station <span></span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:00 - 14:20</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="img/proximity.jpeg" alt="Brenden Legros">
-                                </div>
-                                <h4>Group 4 prez: proximity sensors <span></span></h4>
-                                <p></p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>14:20 - 14:30</time></div>
-                            <div class="col-md-10">
-                                <h4>Closing remarks and photos</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Schdule STEM Day 3 -->
-
-                </div>
-
-                </div>
-
-
-
-        </section>
-
-        <!--==========================
-      Venue Section
-    ============================-->
-        <section id="venue" class="wow fadeInUp">
-
-            <div class="container-fluid">
-
-                <div class="section-header">
-                    <h2>Event Venue</h2>
-                    <p>Event venue location info and gallery</p>
-                </div>
-
-                <div class="row no-gutters">
-                    <div class="col-lg-6 venue-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22518.678405649152!2d11.493055140492181!3d3.8578541681960665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe07671abb10169f9!2sNational%20Advanced%20School%20of%20Engineering%2CYaounde!5e0!3m2!1sen!2sch!4v1669373350797!5m2!1sen!2sch"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-
-                    <div class="col-lg-6 venue-info">
-                        <div class="row justify-content-center">
-                            <div class="col-11 col-lg-8">
-                                <h3>École Polytechnique, Université de Yaoundé I</h3>
-                                <p>École Polytechnique - Université de Yaoundé I, is located at Pharmacie EMIA, Rte de Melen, Yaoundé, Cameroon.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="container-fluid venue-gallery-container">
-                <div class="row no-gutters">
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/10.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/10.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/11.png" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/11.png" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/12.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/12.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="img/venue-gallery/13.jpg" class="venobox" data-gall="venue-gallery">
-                                <img src="img/venue-gallery/13.jpg" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-
-        <!--==========================
-      Hotels Section
-    ============================-->
-        <section id="hotels" class="section-with-bg wow fadeInUp">
-
-            <div class="container">
-                <div class="section-header">
-                    <h2>Hotels</h2>
-                    <p>Here are some nearby hotels</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="hotel">
-                            <div class="hotel-img">
-                                <img src="img/hotels/sinaha.png" alt="Hotel 1" class="img-fluid">
-                            </div>
-                            <h3><a href="https://www.trip.com/hotels/yaounde-hotel-detail-10088253/hotel-sinaha-melen/">Hotel Sinaha</a></h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-full"></i>
-                            </div>
-                            <p>0.4 Mile from the Venue</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="hotel">
-                            <div class="hotel-img">
-                                <img src="img/hotels/newheaven.jpeg" alt="Hotel 2" class="img-fluid">
-                            </div>
-                            <h3><a href="https://www.tripadvisor.com/Hotel_Review-g293773-d21120740-Reviews-New_Heaven_Hotel-Yaounde_Centre_Region.html">New Heaven Hotel</a></h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-
-                            </div>
-                            <p>0.5 Mile from the Venue</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="hotel">
-                            <div class="hotel-img">
-                                <img src="img/hotels/depute.jpeg" alt="Hotel 3" class="img-fluid">
-                            </div>
-                            <h3><a href="http://www.hoteldesdeputes.com/index.php">Hotel des Députés</a></h3>
-                            <div class="stars">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-full"></i>
-                            </div>
-                            <p>2 Miles from the Venue</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-
-        <!--==========================
-      Gallery Section
-    ============================-->
-        <section id="gallery" class="wow fadeInUp">
-
-            <div class="container">
-                <div class="section-header">
-                    <h2>Gallery</h2>
-                    <p>Check our gallery from the recent events</p>
-                </div>
-            </div>
-
-            <div class="owl-carousel gallery-carousel">
-                <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
-                <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
-                <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
-                <a href="img/gallery/12.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/12.jpg" alt=""></a>
-                <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
-                <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
-                <a href="img/gallery/18.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/18.png" alt=""></a>
-                <a href="img/gallery/20.jpeg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/20.jpeg" alt=""></a>
-                <a href="img/gallery/17.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/17.jpg" alt=""></a>
-            </div>
-
-        </section>
-
-        <!--==========================
-      Sponsors Section
-    ============================-->
-        <section id="sponsors" class="section-with-bg wow fadeInUp">
-
-            <div class="container">
-                <div class="section-header">
-                    <h2>Sponsors</h2>
-                </div>
-
-                <div class="row sponsors-wrap clearfix">
-
-                    <div class="col-lg-3 col-md-3 col-xs-6">
-                        <div class="sponsor-logo">
-                            <a href="https://www.unine.ch/"><img src="unine.jpg" class="img-fluid" alt="unine"></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-xs-6">
-                        <div class="sponsor-logo">
-                            <a href="https://www.inria.fr/en"><img src="inria.jpg" class="img-fluid" alt="inria"></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-xs-6">
-                        <div class="sponsor-logo">
-                            <a href="https://www.cnrs.fr/fr"><img src="cnrs.jpg" class="img-fluid" alt="cnrs"></a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-xs-6">
-                        <div class="sponsor-logo">
-                            <a href="https://team.inria.fr/mlns2/"> <img src="mlns2.jpg" class="img-fluid" alt="mlns2"></a>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!--==========================
-      F.A.Q Section
-    ============================-->
-        <section id="faq" class="wow fadeInUp">
-
-            <div class="container">
-
-                <div class="section-header">
-                    <h2>F.A.Q </h2>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <ul id="faq-list">
-
-                            <li>
-                                <a data-toggle="collapse" class="collapsed" href="#faq1">Who can register for the events?
-                  <i class="fa fa-minus-circle"></i></a>
-                                <div id="faq1" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        The STEM bootcamp is for students between the ages of 13-16 inclusive only. For the event on women in computer science, preference will be shown for women/girls, but other students are free to participate if free slots are available. Any student can register
-                                        for all the other events.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq2" class="collapsed">Do I need to pay to attend the events? <i
-                    class="fa fa-minus-circle"></i></a>
-                                <div id="faq2" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        Registration and attendance is free for all events.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq3" class="collapsed">Will there be coffee and lunch breaks?
-                  <i class="fa fa-minus-circle"></i></a>
-                                <div id="faq3" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        There will be coffee and lunch breaks for all events. All associated costs are handled by the organizers.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq4" class="collapsed">Do I need particular devices for the events? <i
-                    class="fa fa-minus-circle"></i></a>
-                                <div id="faq4" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        All kits for the STEM bootcamp will be provided by the organizers. Having a laptop is recommended for all other tutorials.
-                                    </p>
-                                </div>
-                            </li>
-
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq5" class="collapsed">Do organizers cover transport or hotel expenses
-                  for participants? <i class="fa fa-minus-circle"></i></a>
-                                <div id="faq5" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        Participants need to cover their transport or hotel expenses. The organizers may provide transport assistance for few students with limited resources.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq6" class="collapsed">Could participants obtain a certificate of
-                  participation? <i class="fa fa-minus-circle"></i></a>
-                                <div id="faq6" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        All participants in the STEM bootcamp will be awarded a certificate of participation at the end of the event.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a data-toggle="collapse" href="#faq7" class="collapsed">Helpline <i class="fa fa-minus-circle"></i></a>
-                                <div id="faq7" class="collapse" data-parent="#faq-list">
-                                    <p>
-                                        In case you need additional information, please contact +33 7-6710-8757 (science presentations and women in CS session), or +237 99-539-759 (STEM bootcamp).
-                                    </p>
-                                </div>
-                            </li>
-
-
-
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!--==========================
-      Subscribe Section
-    ============================-->
-        <section id="subscribe">
-            <div class="container wow fadeInUp">
-                <div class="section-header">
-                    <h2>Newsletter</h2>
-                    <p>Subscribe to our Newsletter to be updated on upcoming events.</p>
-                </div>
-
-                <form method="POST" action="#">
-                    <div class="form-row justify-content-center">
-                        <div class="col-auto">
-                            <input type="text" class="form-control" placeholder="Enter your Email">
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit">Subscribe</button>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </section>
-
-        <!--==========================
-      Buy Ticket Section
-    ============================-->
-        <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-            <div class="container">
-
-                <div class="section-header">
-                    <h2>Register</h2>
-                    <p>The events comprise a STEM bootcamp (only for 13-16 year olds), scientific presentations and tutorials, and a session to promote women in computer science.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">Only 13-16 year olds</h5>
-                                <h6 class="card-price text-center">STEM Bootcamp</h6>
-                                <hr>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>STEM presentations</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Arduino workshop</li>
-                                </ul>
-                                <hr>
-                                <div class="text-center">
-                                    <a type="button" class="btnxx" hrefxx="https://docs.google.com/forms/d/e/1FAIpQLSdWaI-RuxPNJfNIoFTWYW66sC95vQAPkHU2bDgWI0L0Ns7WlQ/viewform?usp=sf_link" data-ticket-type="standard-access">Registeration Closed</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">Everyone</h5>
-                                <h6 class="card-price text-center">Science Presentations</h6>
-                                <hr>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>PhD student presentations</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshops</li>
-
-                                </ul>
-                                <hr>
-                                <div class="text-center">
-                                    <a type="button" class="btn" href="https://forms.gle/3M8tvHqz9UBpfyx88" data-ticket-type="pro-access">Register</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Pro Tier -->
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted text-uppercase text-center">Everyone</h5>
-                                <h6 class="card-price text-center">Women in CS</h6>
-                                <hr>
-                                <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Presentations</li>
-                                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshops</li>
-
-                                </ul>
-                                <hr>
-                                <div class="text-center">
-                                    <a type="button" class="btn" href="https://forms.gle/3M8tvHqz9UBpfyx88" data-ticket-type="premium-access">Register</a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Modal Order Form -->
-            <div id="buy-ticket-modal" class="modal fade">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Buy Tickets</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-                        </div>
-                        <div class="modal-body">
-                            <form method="POST" action="#">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                                </div>
-                                <div class="form-group">
-                                    <select id="ticket-type" name="ticket-type" class="form-control">
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" class="btn">Buy Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /.modal-content -->
-                </div>
-                <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-
-        </section>
-
-        <!--==========================
-      Contact Section
-    ============================-->
-        <section id="contact" class="section-bg wow fadeInUp">
-
-            <div class="container">
-
-                <div class="section-header">
-                    <h2>Contact Us</h2>
-                    <p>Science Projects Cameroon.</p>
-                    <div class="contact-email">
-                        <i class="ion-ios-email-outline"></i>
-
-                        <p><a href="mailto:scienceprojectscmr.com">scienceprojectscmr@gmail.com</a></p>
-                    </div>
-                </div>
-
-
-                <!-- <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>Rue Emile-Argand 11, 2000 Neuchâtel, Switzerland</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+41 79 683 9557">+41 79 683 9557</a></p>
-            </div>
-          </div>-->
-
-                <div class="d-flex justify-content-center">
-
-                </div>
-
-
-
-
-
-            </div>
-        </section>
-        <!-- #contact -->
-
-    </main>
-
-
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 footer-info">
-                        <img src="img/science.gif" alt="TheEvenet">
-                        <p>Science Events Cameroon aims to promote scientific learning in Cameroon through presentations and free workshops.</p>
-                    </div>
-
-                    <!--<div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>-->
-
-                    <div class="col-lg-4 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-                            <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-                            <li><i class="fa fa-angle-right"></i> <a href="#">Projects</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Rue Emile Argand-11 <br> 2000 Neuchatel<br> Switzerland <br>
-                            <strong>Phone:</strong> +41 00 000 0000<br>
-                            <strong>Email:</strong> scienceprojectscmr@gmail.com<br>
-                        </p>
-
-                        <div class="social-links">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-        -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer>
-    <!-- #footer -->
-
-    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/venobox/venobox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
 </body>
+</html> 
 
-</html>
