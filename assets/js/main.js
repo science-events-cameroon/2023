@@ -127,8 +127,11 @@ setInterval(function () {
     minutes_span.innerHTML = '<span class="number">' + minutes + '</span>' + '<span class="unit">Mins</span>';
     secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Secs</span>'; 
 	
-    if (count <= 0){
-            clearInterval(counter);
+    if (days <= 0){
+            clearInterval(days);
+            clearInterval(hours);
+            clearInterval(minutes);
+            clearInterval(seconds);
             return;  
     }
 }, 1000);
